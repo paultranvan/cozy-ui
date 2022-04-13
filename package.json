@@ -73,7 +73,6 @@
     "@babel/helper-define-map": "7.16.7",
     "@babel/helper-regex": "7.10.5",
     "@cozy/codemods": "^1.9.0",
-    "@material-ui/core": "4.12.3",
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "7.0.18",
     "@semantic-release/npm": "9.0.1",
@@ -152,6 +151,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.3.4",
+    "@material-ui/core": "4.12.3",
     "@popperjs/core": "^2.4.4",
     "classnames": "^2.2.5",
     "cozy-interapp": "^0.5.4",
@@ -170,7 +170,6 @@
     "react-swipeable-views": "^0.13.3"
   },
   "peerDependencies": {
-    "@material-ui/core": ">=4.12",
     "cozy-client": ">=27.19.1",
     "cozy-device-helper": "^1.16.0",
     "cozy-doctypes": "^1.69.0",
