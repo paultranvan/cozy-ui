@@ -1,0 +1,38 @@
+{
+  "baseDir": ".",
+  "files": [
+    {
+      "path": "transpiled/react/Icon/icons-sprite.js",
+      "maxSize": "50 kB"
+    },
+    {
+      "path": "transpiled/react/ContactsListModal/DemoProvider.js",
+      "maxSize": "7.1 kB"
+    },
+    {
+      "path": "transpiled/react/stylesheet.css",
+      "maxSize": "30 kB",
+      "maxPercentIncrease": 1
+    },
+    {
+      "path": "transpiled/react/**",
+      "maxSize": "5 kB"
+    },
+    {
+      "path": "dist/cozy-ui.min.css",
+      "maxSize": "20 kB"
+    },
+    {
+      "path": "dist/cozy-ui.utils.min.css",
+      "maxSize": "10 kB"
+    },
+  ],
+  "groups": [
+    {
+        "path": "transpiled/react/**",
+        "maxPercentIncrease": 1,
+        "maxSize": "500 kB"
+    },
+],
+  "reportOutput": ["github"]
+}
