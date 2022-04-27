@@ -1,5 +1,5 @@
 A component suitable to be used when an Icon should be used as a button.
-Provides hover, active styles + accessible size (48px).
+Provides hover, active styles + accessible size.
 
 ```jsx
 import IconButton from 'cozy-ui/transpiled/react/IconButton'
@@ -14,8 +14,8 @@ import CrossIcon from 'cozy-ui/transpiled/react/Icons/Cross'
 ;
 
 <>
-  <IconButton>
-    <Icon icon={TrashIcon} />
+  <IconButton size="small">
+    <Icon icon={TrashIcon}/>
   </IconButton>
   <IconButton disabled>
     <Icon icon={TrashIcon} />
@@ -23,8 +23,8 @@ import CrossIcon from 'cozy-ui/transpiled/react/Icons/Cross'
   <IconButton color="primary">
     <Icon icon={RestoreIcon} />
   </IconButton>
-  <IconButton color="secondary">
-    <Icon icon={CrossIcon} />
+  <IconButton color="secondary" size="large">
+    <Icon icon={CrossIcon}/>
   </IconButton>
 </>
 ```

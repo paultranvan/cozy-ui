@@ -666,6 +666,16 @@ const makeOverrides = theme => ({
   MuiIconButton: {
     root: {
       color: theme.palette.text.secondary,
+      border: '1px solid transparent',
+      '&.small': {
+        padding: 3
+      },
+      '&.medium': {
+        padding: 11
+      },
+      '&.large': {
+        padding: 15
+      },
       '&.dialogIconButton': {
         backgroundColor: theme.palette.background.paper,
         '&:hover': {
